@@ -1,7 +1,7 @@
 // useCallback: custom hooks
 // http://localhost:3000/isolated/exercise/02.js
 
-import React from 'react'
+import * as React from 'react'
 import {
   fetchPokemon,
   PokemonForm,
@@ -44,7 +44,7 @@ function PokemonInfo({pokemonName}) {
   //   {status: pokemonName ? 'pending' : 'idle'},
   //   [pokemonName],
   // )
-  // 🐨 so you're job is to create a useAsync function that makes this work.
+  // 🐨 so your job is to create a useAsync function that makes this work.
   const [state, dispatch] = React.useReducer(pokemonInfoReducer, {
     status: pokemonName ? 'pending' : 'idle',
     // 🐨 this will need to be "data" instead of "pokemon"
@@ -116,4 +116,22 @@ function App() {
   )
 }
 
-export default App
+function AppWithUnmountCheckbox() {
+  const [mountApp, setMountApp] = React.useState(true)
+  return (
+    <div>
+      <label>
+        <input
+          type="checkbox"
+          checked={mountApp}
+          onChange={e => setMountApp(e.target.checked)}
+        />{' '}
+        Mount Component
+      </label>
+      <hr />
+      {mountApp ? <App /> : null}
+    </div>
+  )
+}
+
+export default AppWithUnmountCheckbox

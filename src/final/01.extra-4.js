@@ -2,13 +2,16 @@
 // 💯 traditional dispatch object with a type and switch statement
 // http://localhost:3000/isolated/final/01.extra-4.js
 
-import React from 'react'
+import * as React from 'react'
 
 function countReducer(state, action) {
   const {type, step} = action
   switch (type) {
     case 'increment': {
-      return {count: state.count + step}
+      return {
+        ...state,
+        count: state.count + step,
+      }
     }
     default: {
       throw new Error(`Unsupported action type: ${action.type}`)

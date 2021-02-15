@@ -2,7 +2,7 @@
 // 💯 use useCallback to empower the user to customize memoization
 // http://localhost:3000/isolated/final/02.extra-1.js
 
-import React from 'react'
+import * as React from 'react'
 import {
   fetchPokemon,
   PokemonForm,
@@ -103,4 +103,22 @@ function App() {
   )
 }
 
-export default App
+function AppWithUnmountCheckbox() {
+  const [mountApp, setMountApp] = React.useState(true)
+  return (
+    <div>
+      <label>
+        <input
+          type="checkbox"
+          checked={mountApp}
+          onChange={e => setMountApp(e.target.checked)}
+        />{' '}
+        Mount Component
+      </label>
+      <hr />
+      {mountApp ? <App /> : null}
+    </div>
+  )
+}
+
+export default AppWithUnmountCheckbox

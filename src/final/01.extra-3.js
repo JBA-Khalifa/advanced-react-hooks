@@ -2,7 +2,7 @@
 // 💯 simulate setState with an object OR function
 // http://localhost:3000/isolated/final/01.extra-3.js
 
-import React from 'react'
+import * as React from 'react'
 
 const countReducer = (state, action) => ({
   ...state,
@@ -15,7 +15,7 @@ function Counter({initialCount = 0, step = 1}) {
   })
   const {count} = state
   const increment = () =>
-    setState(currentState => ({count: currentState.count + 1}))
+    setState(currentState => ({count: currentState.count + step}))
   return <button onClick={increment}>{count}</button>
 }
 

@@ -108,7 +108,8 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/1249745?v=4",
       "profile": "https://github.com/Snaptags",
       "contributions": [
-        "code"
+        "code",
+        "test"
       ]
     },
     {
@@ -200,6 +201,152 @@
       "profile": "https://github.com/emzoumpo",
       "contributions": [
         "doc"
+      ]
+    },
+    {
+      "login": "Aprillion",
+      "name": "Peter Hozák",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1087670?v=4",
+      "profile": "http://peter.hozak.info/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "joemaffei",
+      "name": "Joe Maffei",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9068746?v=4",
+      "profile": "https://github.com/joemaffei",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "jmagrippis",
+      "name": "Johnny Magrippis",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3502800?v=4",
+      "profile": "https://magrippis.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "rphuber",
+      "name": "Ryan Huber",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8245890?v=4",
+      "profile": "http://blog.rphuber.com",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "dominicchapman",
+      "name": "Dominic Chapman",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7607007?v=4",
+      "profile": "https://dominicchapman.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "imalbert",
+      "name": "imalbert",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12537973?v=4",
+      "profile": "https://github.com/imalbert",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Huuums",
+      "name": "Dennis Collon",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9745322?v=4",
+      "profile": "https://github.com/Huuums",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "jrozbicki",
+      "name": "Jakub Różbicki",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/35103924?v=4",
+      "profile": "https://github.com/jrozbicki",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "vasilii-kovalev",
+      "name": "Vasilii Kovalev",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10310491?v=4",
+      "profile": "https://vk.com/vasilii_kovalev",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "alexfertel",
+      "name": "Alexander Gonzalez",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/22298999?v=4",
+      "profile": "http://alexfertel.netlify.app",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "DaleSeo",
+      "name": "Dale Seo",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5466341?v=4",
+      "profile": "https://www.daleseo.com",
+      "contributions": [
+        "doc",
+        "test"
+      ]
+    },
+    {
+      "login": "MichaelDeBoey",
+      "name": "Michaël De Boey",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/6643991?v=4",
+      "profile": "https://michaeldeboey.be",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "thegoodsheppard",
+      "name": "Greg Sheppard",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/13774377?v=4",
+      "profile": "https://github.com/thegoodsheppard",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "bobbywarner",
+      "name": "Bobby Warner",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/554961?v=4",
+      "profile": "http://bobbywarner.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "jwm0",
+      "name": "Jakub Majorek",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/28310983?v=4",
+      "profile": "https://github.com/jwm0",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "suddenlyGiovanni",
+      "name": "Giovanni Ravalico",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/15946771?v=4",
+      "profile": "https://suddenlyGiovanni.dev",
+      "contributions": [
+        "ideas"
       ]
     }
   ],
